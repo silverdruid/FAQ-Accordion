@@ -9,6 +9,14 @@ body {
     background-color: #1a1a1a;
 }
 
+.plus {
+    margin-left: 20em;
+    font-size: 30px;
+    font-weight:700;
+    text-align: center;
+    align-content: flex-end;
+}
+
 .accordion {
     width: 65%;
     background-color: #fff;
@@ -35,4 +43,30 @@ body {
     right: -5px;
 }
 
-cla
+.accordion .content-container .answer {
+    padding-top: 15px;
+    font-size: 22px;
+    line-height: 1.5;
+    width: 100%;
+
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+/* Javascript Styling Link*/
+
+.accordion .content-container .active .answer {
+    height: 150px;
+}
+    
+.accordion .content-container .active .question {
+    font-size: 18px;
+    transition: .5s;
+}
+
+.accordion .content-container .question::after {
+    content: '-';
+    font-size: 30px;
+    transition: .5s;
+}
