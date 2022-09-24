@@ -1,0 +1,38 @@
+/* ACCORDION STYLING */
+
+body {
+    /* background: url(./img/bkg.png) no-repeat center center/cover;
+    height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+}
+
+.accordion {
+    width: 65%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 200px;
+}
+
+.accordion .accordion-title {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.accordion .content-container .question {
+    padding: 18px 0;
+    font-size: 22px;
+    cursor: pointer;
+    border-bottom: 1px solid #1a1a1a;
+    position: relative;
+}
+
+.accordion .content-container .question {
+    content: '+';
+    right: -5px;
+}
+
+cla
